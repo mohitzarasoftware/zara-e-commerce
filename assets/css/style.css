@@ -16194,6 +16194,15 @@ a.over_link {
   .header-style-two .header-top-area-two {
     display: none;
   }
+  .header-style-two .logo-area {
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-style-two .logo-area img {
+    height: 100%;
+  }
 }
 
 .header-style-two .header-top-area-two .hader-top-between-two {
@@ -22934,7 +22943,7 @@ body.modal-open {
 }
 
 .rts-contact-main-wrapper-banner {
-  background-image: url(../image/contact/01.jpg);
+  background-image: url(../image/contact-bg.webp);
 }
 
 .contact-banner-content {
@@ -23250,7 +23259,8 @@ body.modal-open {
   .single-cart-area-list.main {
     flex-direction: column;
     align-items: flex-start;
-    gap: 25px;
+    gap: 18px;
+    padding: 15px 20px;
   }
 }
 
@@ -23301,8 +23311,11 @@ body.modal-open {
   .single-cart-area-list.main .product-main-cart .close {
     cursor: pointer;
     position: absolute;
-    right: -13px;
-    top: -14px;
+    right: -10px;
+    top: -6px;
+  }
+  .single-cart-area-list.main .product-main-cart .information .title {
+    line-height: 27px;
   }
 }
 
@@ -25123,8 +25136,7 @@ body.modal-open {
   top: 0;
   right: -100%;
   width: 465px;
-  padding: 40px 30px;
-  padding-top: 50px;
+  padding: 25px 15px;
   height: 100%;
   display: block;
   background-color: white;
@@ -25188,24 +25200,21 @@ body.modal-open {
 }
 
 .side-bar button.close-icon-menu {
-  max-width: max-content;
-  margin-right: auto;
-  margin-left: -53px;
-  margin-top: 0;
   position: absolute;
+  left: 0;
+  padding: 0;
+  top: 0;
 }
 
 .side-bar button.close-icon-menu i {
   color: #ffffff;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 14px;
-  margin-top: -53px;
-  font-size: 27px;
+  font-size: 22px;
   background: var(--color-primary);
 }
 
@@ -25296,7 +25305,7 @@ body.modal-open {
 }
 
 .button-area-main-wrapper-menuy-sidebar .contact-area>div a {
-  font-size: 22px;
+  font-size: 20px;
   color: var(--color-heading-1);
 }
 
@@ -25451,6 +25460,15 @@ body.modal-open {
 @media only screen and (max-width: 767px) {
   #side-bar .inner-main-wrapper-desk {
     display: none;
+  }
+  .button-area-main-wrapper-menuy-sidebar .contact-area>div a {
+    font-size: 16px;
+  }
+  .button-area-main-wrapper-menuy-sidebar {
+    padding: 15px;
+  }
+  .button-area-main-wrapper-menuy-sidebar .contact-area>div i {
+    font-size: 20px;
   }
 }
 

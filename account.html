@@ -15,10 +15,9 @@
     <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.css">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    
 </head>
 <body>
+
     <!-- header style two start -->
     <header class="header-style-two bg-primary-header">
         <div class="header-top-area-two">
@@ -518,18 +517,18 @@
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
                     <!-- mobile menu area start -->
                     <div class="mobile-menu-main">
-                        <nav class="nav-main mainmenu-nav mt--30">
+                        <nav class="nav-main mainmenu-nav mt--20">
                             <ul class="mainmenu metismenu" id="mobile-menu-active">
-                                <li class="has-droupdown">
+                                <li>
                                     <a href="#" class="main">Home</a> 
                                 </li>
                                 <li>
                                     <a href="about.html" class="main">About</a>
                                 </li>
-                                <li class="has-droupdown">
+                                <li>
                                     <a href="#" class="main">Shop</a>
                                 </li>
-                                <li class="has-droupdown">
+                                <li>
                                     <a href="#" class="main">Blog</a>
                                 </li>
                                 <li>
@@ -542,8 +541,8 @@
                     <!-- mobile menu area end -->
                 </div>
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-                    <div class="category-btn category-hover-header menu-category">
-                        <ul class="category-sub-menu" id="category-active-menu">
+                    <div class="category-btn category-hover-header menu-category mt-4">
+                        <ul class="category-sub-menu mt-4" id="category-active-menu">
                             <li>
                                 <a href="#" class="menu-item">
                                     <img src="assets/image/01.svg" alt="icons">
@@ -636,14 +635,14 @@
         </div>
 
         <!-- button area wrapper start -->
-        <div class="button-area-main-wrapper-menuy-sidebar mt--50">
+        <div class="button-area-main-wrapper-menuy-sidebar mt-4">
             <div class="contact-area">
                 <div class="phone">
-                    <i class="fa-light fa-headset"></i>
+                    <i class="fa-solid fa-headset"></i>
                     <a href="#">02345697871</a>
                 </div>
-                <div class="phone">
-                    <i class="fa-light fa-envelope"></i>
+                <div class="phone pt-2">
+                    <i class="fa-solid fa-headset"></i>
                     <a href="#">02345697871</a>
                 </div>
             </div>
@@ -657,434 +656,161 @@
     </div>
     <!-- navbar offcanvas End -->
 
-    <!-- rts banner area about -->
-    <div class="about-banner-area-bg rts-section-gap bg_iamge">
+    <!-- breadcrumb section start -->
+    <div class="rts-navigation-area-breadcrumb bg_light-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="inner-content-about-area">
-                        <h1 class="title">Do You Want To Know Us?</h1>
-                        <p class="disc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium mollis ex, vel interdum augue faucibus sit amet. Proin tempor purus ac suscipit sagittis. Nunc finibus euismod enim, eu finibus nunc ullamcorper et.
-                        </p>
-                        <a href="#" class="rts-btn btn-primary">Contact Us</a>
+                    <div class="navigator-breadcrumb-wrapper">
+                        <a href="index.html">Home</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <span class="current">Account</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- rts banner area about end -->
+    <!-- breadcrumb section end -->
 
-    <!-- rts counter area start -->
-    <div class="rts-counter-area">
-        <div class="container-3">
+    <!-- account section start -->
+    <div class="account-tab-area-start rts-section-gap">
+        <div class="container-2">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="counter-area-main-wrapper">
-                        <div class="single-counter-area">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">60</span>M+</h2>
-                            <p>
-                                Happy <br>
-                                Customers
-                            </p>
-                        </div>
-                        <div class="single-counter-area">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">105</span>M+</h2>
-                            <p>
-                                Grocery <br>
-                                Products
-                            </p>
-                        </div>
-                        <div class="single-counter-area">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">80</span>K+</h2>
-                            <p>
-                                Active <br>
-                                Salesman
-                            </p>
-                        </div>
-                        <div class="single-counter-area">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">60</span>K+</h2>
-                            <p>
-                                Store <br>
-                                Worldwide
-                            </p>
-                        </div>
+                <div class="col-lg-3">
+                    <div class="nav accout-dashborard-nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa-solid fa-chart-line"></i>Dashboard</button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fa-solid fa-bag-shopping"></i>Order</button>
+                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fa-solid fa-truck-moving"></i> Track Your Order</button>
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fa-solid fa-location-dot"></i>My Address</button>
+                        <button class="nav-link" id="v-pills-settingsa-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settingsa" type="button" role="tab" aria-controls="v-pills-settingsa" aria-selected="false"><i class="fa-solid fa-user"></i> Account Details</button>
+                        <button class="nav-link" id="v-pills-settingsb-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settingsb" type="button" role="tab" aria-controls="v-pills-settingsb" aria-selected="false"><a href="login.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>log Out</a></button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- rts counter area end -->
-
-    <!-- about area start -->
-    <div class="rts-about-area rts-section-gap2">
-        <div class="container-3">
-            <div class="row align-items-center">
-                <div class="col-lg-4">
-                    <div class="thumbnail-left">
-                        <img src="assets/image/product-details.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-8 pl--60 pl_md--10 pt_md--30 pl_sm--10 pt_sm--30">
-                    <div class="about-content-area-1">
-                        <h2 class="title">
-                            Your Destination for Quality Produce <br> and Pantry Essentials
-                        </h2>
-                        <p class="disc">
-                            Venenatis augue consequat class magnis sed purus, euismod ligula nibh congue quis vestibulum nostra, cubilia varius velit vitae rhoncus. Turpis malesuada fringilla urna dui est torquent aliquet, mi nec fermentum placerat nisi venenatis sapien, mattis nunc nullam rutrum feugiat porta. Pharetra mi nisl consequat semper quam litora aenean eros conubia molestie erat, et cursus integer rutrum sollicitudin auctor curae inceptos senectus sagittis est,
-                        </p>
-                        <div class="check-main-wrapper">
-                            <div class="single-check-area">
-                                Elementum sociis rhoncus aptent auctor urna justo
-                            </div>
-                            <div class="single-check-area">
-                                Habitasse venenatis gravida nisl, sollicitudin posuere
-                            </div>
-                            <div class="single-check-area">
-                                Uisque cum convallis nostra in sapien nascetur, netus
-                            </div>
-                            <div class="single-check-area">
-                                Class nunc aliquet nulla dis senectus lputate porta
-                            </div>
-                            <div class="single-check-area">
-                                Aenean gravida a est ante nisl nostra dui hendrerit
-                            </div>
-                            <div class="single-check-area">
-                                Bibendum venenatis dignissim non himenaeos eget
+                <div class="col-lg-9 pl--50 pl_md--10 pl_sm--10 pt_md--30 pt_sm--30">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                            <div class="dashboard-account-area">
+                                <h2 class="title">Hello Raisa! (Not Raisa?) <a href="login.html">Log Out.</a></h2>
+                                <p class="disc">
+                                    From your account dashboard you can view your recent orders, manage your shipping and billing addresses, and edit your password and account details.
+                                </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- about area end -->
-
-    <!-- section-seperator start -->
-    <hr class="border-top m-0">
-    <!-- section-seperator start -->
-
-    <!-- meet our expart team -->
-    <div class="meet-our-expart-team rts-section-gap2">
-        <div class="container-3">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-center-area-main">
-                        <h2 class="title">
-                            Meet Our Expert Team
-                        </h2>
-                        <p class="disc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium mollis ex, vel interdum augue faucibus sit amet. Proin tempor purus ac suscipit...
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5 mt--40">
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <!-- single team area start -->
-                    <div class="single-team-style-one">
-                        <a href="#" class="thumbnail">
-                            <img src="assets/image/team.webp" alt="team_single">
-                        </a>
-                        <div class="bottom-content-area">
-                            <div class="top">
-                                <h3 class="title animated fadeIn">
-                                    Samuel Alexander
-                                </h3>
-                                <span class="designation">Design Director</span>
-                            </div>
-                            <div class="bottom">
-                                <a href="#" class="number">
-                                    <i class="fa-solid fa-phone"></i>
-                                    +25896 3158 3228
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single team area end -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <!-- single team area start -->
-                    <div class="single-team-style-one">
-                        <a href="#" class="thumbnail">
-                            <img src="assets/image/team.webp" alt="team_single">
-                        </a>
-                        <div class="bottom-content-area">
-                            <div class="top">
-                                <h3 class="title animated fadeIn">
-                                    Isabella Charlotte
-                                </h3>
-                                <span class="designation">Design Director</span>
-                            </div>
-                            <div class="bottom">
-                                <a href="#" class="number">
-                                    <i class="fa-solid fa-phone"></i>
-                                    +25896 3158 3228
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single team area end -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <!-- single team area start -->
-                    <div class="single-team-style-one">
-                        <a href="#" class="thumbnail">
-                            <img src="assets/image/team.webp" alt="team_single">
-                        </a>
-                        <div class="bottom-content-area">
-                            <div class="top">
-                                <h3 class="title animated fadeIn">
-                                    William Ethan
-                                </h3>
-                                <span class="designation">Design Director</span>
-                            </div>
-                            <div class="bottom">
-                                <a href="#" class="number">
-                                    <i class="fa-solid fa-phone"></i>
-                                    +25896 3158 3228
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single team area end -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                    <!-- single team area start -->
-                    <div class="single-team-style-one">
-                        <a href="#" class="thumbnail">
-                            <img src="assets/image/team.webp" alt="team_single">
-                        </a>
-                        <div class="bottom-content-area">
-                            <div class="top">
-                                <h3 class="title animated fadeIn">
-                                    Sophia Amelia
-                                </h3>
-                                <span class="designation">Design Director</span>
-                            </div>
-                            <div class="bottom">
-                                <a href="#" class="number">
-                                    <i class="fa-solid fa-phone"></i>
-                                    +25896 3158 3228
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single team area end -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- meet our expart end -->
-
-    <!-- choosing reason service area start -->
-    <div class="rts-service-area rts-section-gap2 bg_light-1">
-        <div class="container-3">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-center-area-main">
-                        <h2 class="title">
-                            Why You Choose Us?
-                        </h2>
-                        <p class="disc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium mollis ex, vel interdum augue faucibus sit amet. Proin tempor purus ac suscipit...
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt--30 g-5">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="single-service-area-style-one">
-                        <div class="icon-area">
-                            <span class="bg-text">01</span>
-                            <img src="assets/image/service-1.svg" alt="service">
-                        </div>
-                        <div class="bottom-content">
-                            <h3 class="title animated fadeIn">
-                                Organic Food Services
-                            </h3>
-                            <p class="disc">
-                                When an unknown printer took a galley of type and scrambled it to make follow type specimen area book.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="single-service-area-style-one">
-                        <div class="icon-area">
-                            <span class="bg-text">02</span>
-                            <img src="assets/image/service-2.svg" alt="service">
-                        </div>
-                        <div class="bottom-content">
-                            <h3 class="title animated fadeIn">
-                                Organic Food Services
-                            </h3>
-                            <p class="disc">
-                                When an unknown printer took a galley of type and scrambled it to make follow type specimen area book.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="single-service-area-style-one">
-                        <div class="icon-area">
-                            <span class="bg-text">03</span>
-                            <img src="assets/image/service-3.svg" alt="service">
-                        </div>
-                        <div class="bottom-content">
-                            <h3 class="title animated fadeIn">
-                                Organic Food Services
-                            </h3>
-                            <p class="disc">
-                                When an unknown printer took a galley of type and scrambled it to make follow type specimen area book.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- choosing reason service area end -->
-
-    <!-- rts customers feedbacka area start -->
-    <div class="rts-cuystomers-feedback-area rts-section-gap2">
-        <div class="container-3">
-            <div class="row">
-                <div class="col-lgl-12">
-                    <div class="title-area-left pl--0">
-                        <h2 class="title-left mb--0">
-                            Customer Feedbacks
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt--50">
-                <div class="col-lg-12">
-                    <div class="customers-feedback-area-main-wrapper">
-                        <!-- rts category area satart -->
-                        <div class="rts-caregory-area-one ">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="category-area-main-wrapper-one">
-                                        <div class="swiper mySwiper-category-1 swiper-data swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" data-swiper="{
-                                            &quot;spaceBetween&quot;:24,
-                                            &quot;slidesPerView&quot;:2,
-                                            &quot;loop&quot;: true,
-                                            &quot;speed&quot;: 1000,
-                                            &quot;navigation&quot;:{
-                                                &quot;nextEl&quot;:&quot;.swiper-button-nexts&quot;,
-                                                &quot;prevEl&quot;:&quot;.swiper-button-prevs&quot;
-                                                },
-                                            &quot;breakpoints&quot;:{
-                                            &quot;0&quot;:{
-                                                &quot;slidesPerView&quot;:1,
-                                                &quot;spaceBetween&quot;: 24},
-                                            &quot;320&quot;:{
-                                                &quot;slidesPerView&quot;:1,
-                                                &quot;spaceBetween&quot;:24},
-                                            &quot;480&quot;:{
-                                                &quot;slidesPerView&quot;:1,
-                                                &quot;spaceBetween&quot;:24},
-                                            &quot;640&quot;:{
-                                                &quot;slidesPerView&quot;:1,
-                                                &quot;spaceBetween&quot;:24},
-                                            &quot;840&quot;:{
-                                                &quot;slidesPerView&quot;:1,
-                                                &quot;spaceBetween&quot;:24},
-                                            &quot;1140&quot;:{
-                                                &quot;slidesPerView&quot;:2,
-                                                &quot;spaceBetween&quot;:24}
-                                            }
-                                        }">
-                                            <div class="swiper-wrapper" id="swiper-wrapper-c361c8ed46da3bfc" aria-live="polite" style="transform: translate3d(-657px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 1" style="width: 633px; margin-right: 24px;">
-                                                    <!-- single customers feedback area start -->
-                                                    <div class="single-customers-feedback-area">
-                                                        <div class="top-thumbnail-area">
-                                                            <div class="left">
-                                                                <img src="assets/image/testimonial/01.png" alt="logo">
-                                                                <div class="information">
-                                                                    <h4 class="title">
-                                                                        Andrew D. Smith
-                                                                    </h4>
-                                                                    <span>Manager</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="right">
-                                                                <img src="assets/image/testimonial/02.png" alt="logo">
-                                                            </div>
-                                                        </div>
-                                                        <div class="body-content">
-                                                            <p class="disc">
-                                                                “According to the council of supply chain professionals the council of logistics management logistics is the process of planning, implementing and controlling procedures”
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- single customers feedback area end -->
-                                                </div>
-                                                <!-- single swiper start -->
-                                                <div class="swiper-slide swiper-slide-active swiper-slide-duplicate-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 1" style="width: 633px; margin-right: 24px;">
-                                                    <!-- single customers feedback area start -->
-                                                    <div class="single-customers-feedback-area">
-                                                        <div class="top-thumbnail-area">
-                                                            <div class="left">
-                                                                <img src="assets/image/testimonial/01.png" alt="logo">
-                                                                <div class="information">
-                                                                    <h4 class="title">
-                                                                        Andrew D. Smith
-                                                                    </h4>
-                                                                    <span>Manager</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="right">
-                                                                <img src="assets/image/testimonial/02.png" alt="logo">
-                                                            </div>
-                                                        </div>
-                                                        <div class="body-content">
-                                                            <p class="disc">
-                                                                “According to the council of supply chain professionals the council of logistics management logistics is the process of planning, implementing and controlling procedures”
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- single customers feedback area end -->
-                                                </div>
-                                                <!-- single swiper start -->
-                                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-next" data-swiper-slide-index="0" role="group" aria-label="1 / 1" style="width: 633px; margin-right: 24px;">
-                                                    <!-- single customers feedback area start -->
-                                                    <div class="single-customers-feedback-area">
-                                                        <div class="top-thumbnail-area">
-                                                            <div class="left">
-                                                                <img src="assets/image/testimonial/01.png" alt="logo">
-                                                                <div class="information">
-                                                                    <h4 class="title">
-                                                                        Andrew D. Smith
-                                                                    </h4>
-                                                                    <span>Manager</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="right">
-                                                                <img src="assets/image/testimonial/02.png" alt="logo">
-                                                            </div>
-                                                        </div>
-                                                        <div class="body-content">
-                                                            <p class="disc">
-                                                                “According to the council of supply chain professionals the council of logistics management logistics is the process of planning, implementing and controlling procedures”
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- single customers feedback area end -->
-                                                </div></div>
-                                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-                                    </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <div class="order-table-account">
+                                <div class="h2 title">Your Orders</div>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Order</th>
+                                                <th>Date</th>
+                                                <th>Status</th>
+                                                <th>Total</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>#1357</td>
+                                                <td>March 45, 2020</td>
+                                                <td>Processing</td>
+                                                <td>$125.00 for 2 item</td>
+                                                <td><a href="#" class="btn-small d-block">View</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>#2468</td>
+                                                <td>June 29, 2020</td>
+                                                <td>Completed</td>
+                                                <td>$364.00 for 5 item</td>
+                                                <td><a href="#" class="btn-small d-block">View</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>#2366</td>
+                                                <td>August 02, 2020</td>
+                                                <td>Completed</td>
+                                                <td>$280.00 for 3 item</td>
+                                                <td><a href="#" class="btn-small d-block">View</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
-                        <!-- rts category area end -->
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                            <div class="tracing-order-account">
+                                <h2 class="title">Orders tracking</h2>
+                                <p>
+                                    To keep up with the status of your order, kindly input your OrderID in the designated box below and click the "Track" button. This unique identifier can be found on your receipt as well as in the confirmation email that was sent to you.
+                                </p>
+                                <form action="#" class="order-tracking">
+                                    <div class="single-input">
+                                        <label for="order-id">Order Id</label>
+                                        <input type="text" placeholder="Found in your order confirmation email" required="">
+                                    </div>
+                                    <div class="single-input">
+                                        <label for="order-id">Billing email</label>
+                                        <input type="text" placeholder="Email You use during checkout">
+                                    </div>
+                                    <button class="rts-btn btn-primary">Track</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+                            <div class="shipping-address-billing-address-account">
+                                <div class="half">
+                                    <h2 class="title">Billing Address</h2>
+                                    <p class="address">
+                                        3522 Interstate <br>
+                                        75 Business Spur, <br>
+                                        Sault Ste. <br>
+                                        Marie, MI 49783 <br>
+                                        New York
+                                    </p>
+                                    <a href="#">Edit</a>
+                                </div>
+                                <div class="half">
+                                    <h2 class="title">Shipping Address</h2>
+                                    <p class="address">
+                                        3522 Interstate <br>
+                                        75 Business Spur, <br>
+                                        Sault Ste. <br>
+                                        Marie, MI 49783 <br>
+                                        New York
+                                    </p>
+                                    <a href="#">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settingsa" role="tabpanel" aria-labelledby="v-pills-settingsa-tab" tabindex="0">
+                            <form action="#" class="account-details-area">
+                                <h2 class="title">Account Details</h2>
+                                <div class="input-half-area">
+                                    <div class="single-input">
+                                        <input type="text" placeholder="First Name">
+                                    </div>
+                                    <div class="single-input">
+                                        <input type="text" placeholder="Last Name">
+                                    </div>
+                                </div>
+
+                                <input type="text" placeholder="Display Name" required="">
+                                <input type="email" placeholder="Email Address *" required="">
+                                <input type="email" placeholder="Email Address *">
+                                <input type="password" placeholder="Current Password *" required="">
+                                <input type="password" placeholder="New Password *">
+                                <input type="password" placeholder="Confirm Password *">
+                                <button class="rts-btn btn-primary">Save Change</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settingsb" role="tabpanel" aria-labelledby="v-pills-settingsb-tab" tabindex="0">...</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- rts customers feedbacka area end -->
+    <!-- account section end -->
+
 
     <div class="rts-shorts-service-area rts-section-gap bg_primary">
         <div class="container">
@@ -1178,6 +904,7 @@
         </div>
     </div>
 
+
     <!-- rts footer area start -->
     <div class="rts-footer-area-two">
         <div class="container">
@@ -1186,7 +913,7 @@
                     <div class="footer-two-main-wrapper">
                         <div class="footer-single-wixed-two start">
                             <a href="#" class="logo-area">
-                                <img src="assets/image/logo/logo-02.svg" alt="logo-area" class="logo">
+                                <img src="assets/image/logo-02.svg" alt="logo-area" class="logo">
                             </a>
                             <p class="disc">
                                 What’s inside: New Arrivals, Exclusive Sales,
@@ -1301,8 +1028,49 @@
         </div>
     </div>
     <!-- rts copyright area end -->
-
-
+    
+    <!-- modal -->
+    <div id="myModal-1" class="modal fade" role="dialog">
+        <div class="modal-dialog bg_image">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal"><i class="fa-light fa-x"></i></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="inner-content">
+                        <div class="content">
+                            <span class="pre-title">Get up to 30% off on your first $150 purchase</span>
+                            <h1 class="title">Feed Your Family at the  <br>
+                                Best Price</h1>
+                            <p class="disc">
+                                We have prepared special discounts for you on grocery products. Don't <br> miss these opportunities...
+                            </p>
+                            <div class="rts-btn-banner-area">
+                                <a href="#" class="rts-btn btn-primary radious-sm with-icon">
+                                    <div class="btn-text">
+                                        Shop Now
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                                <div class="price-area">
+                                    <span>
+                                        from
+                                    </span>
+                                    <h3 class="title animated fadeIn">$80.99</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="product-details-popup-wrapper">
         <div class="rts-product-details-section rts-product-details-section2 product-details-popup-section">
             <div class="product-details-popup">
@@ -1311,21 +1079,30 @@
                     <div class="product-thumb-area">
                         <div class="cursor"></div>
                         <div class="thumb-wrapper one filterd-items figure">
-                            <div class="product-thumb zoom" onmousemove="zoom(event)" style="background-image: url(assets/image/products/product-details.jpg)"><img src="assets/image/products/product-details.jpg" alt="product-thumb">
+                            <div class="product-thumb zoom" onmousemove="zoom(event)"
+                                style="background-image: url(assets/image/products/product-details.jpg)"><img
+                                    src="assets/image/products/product-details.jpg" alt="product-thumb">
                             </div>
                         </div>
                         <div class="thumb-wrapper two filterd-items hide">
-                            <div class="product-thumb zoom" onmousemove="zoom(event)" style="background-image: url(assets/image/products/product-filt2.jpg)"><img src="assets/image/products/product-filt2.jpg" alt="product-thumb">
+                            <div class="product-thumb zoom" onmousemove="zoom(event)"
+                                style="background-image: url(assets/image/products/product-filt2.jpg)"><img
+                                    src="assets/image/products/product-filt2.jpg" alt="product-thumb">
                             </div>
                         </div>
                         <div class="thumb-wrapper three filterd-items hide">
-                            <div class="product-thumb zoom" onmousemove="zoom(event)" style="background-image: url(assets/image/products/product-filt3.jpg)"><img src="assets/image/products/product-filt3.jpg" alt="product-thumb">
+                            <div class="product-thumb zoom" onmousemove="zoom(event)"
+                                style="background-image: url(assets/image/products/product-filt3.jpg)"><img
+                                    src="assets/image/products/product-filt3.jpg" alt="product-thumb">
                             </div>
                         </div>
                         <div class="product-thumb-filter-group">
-                            <div class="thumb-filter filter-btn active" data-show=".one"><img src="assets/image/products/product-filt1.jpg" alt="product-thumb-filter"></div>
-                            <div class="thumb-filter filter-btn" data-show=".two"><img src="assets/image/products/product-filt2.jpg" alt="product-thumb-filter"></div>
-                            <div class="thumb-filter filter-btn" data-show=".three"><img src="assets/image/products/product-filt3.jpg" alt="product-thumb-filter"></div>
+                            <div class="thumb-filter filter-btn active" data-show=".one"><img
+                                    src="assets/image/products/product-filt1.jpg" alt="product-thumb-filter"></div>
+                            <div class="thumb-filter filter-btn" data-show=".two"><img
+                                    src="assets/image/products/product-filt2.jpg" alt="product-thumb-filter"></div>
+                            <div class="thumb-filter filter-btn" data-show=".three"><img
+                                    src="assets/image/products/product-filt3.jpg" alt="product-thumb-filter"></div>
                         </div>
                     </div>
                     <div class="contents">
@@ -1349,7 +1126,7 @@
                             <div class="cart-edit">
                                 <div class="quantity-edit action-item">
                                     <button class="button"><i class="fal fa-minus minus"></i></button>
-                                    <input type="text" class="input" value="01">
+                                    <input type="text" class="input" value="01" />
                                     <button class="button plus">+<i class="fal fa-plus plus"></i></button>
                                 </div>
                             </div>
@@ -1358,13 +1135,13 @@
                                     Add To Cart
                                 </div>
                                 <div class="arrow-icon">
-                                    <i class="fa-regular fa-cart-shopping"></i>
+                                    <i class="fa-solid fa-cart-plus"></i>
                                 </div>
                                 <div class="arrow-icon">
-                                    <i class="fa-regular fa-cart-shopping"></i>
+                                    <i class="fa-solid fa-cart-plus"></i>
                                 </div>
                             </a>
-                            <a href="javascript:void(0);" class="rts-btn btn-primary ml--20"><i class="fa-light fa-heart"></i></a>
+                            <a href="javascript:void(0);" class="rts-btn btn-primary ml--20"><i class="fa-regular fa-heart"></i></a>
                         </div>
                         <div class="product-uniques">
                             <span class="sku product-unipue"><span>SKU: </span> BO1D0MX8SJ</span>
@@ -1373,11 +1150,16 @@
                         </div>
                         <div class="share-social">
                             <span>Share:</span>
-                            <a class="platform" href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a class="platform" href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                            <a class="platform" href="http://behance.com" target="_blank"><i class="fab fa-behance"></i></a>
-                            <a class="platform" href="http://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
-                            <a class="platform" href="http://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a class="platform" href="http://facebook.com" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="platform" href="http://twitter.com" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="platform" href="http://behance.com" target="_blank"><i
+                                    class="fab fa-behance"></i></a>
+                            <a class="platform" href="http://youtube.com" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="platform" href="http://linkedin.com" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1393,225 +1175,217 @@
         </div>
     </div>
     <!-- successfully add in wishlist end -->
-
-
-
+    
     <!-- Modal -->
-    <div class="modal modal-compare-area-start fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal modal-compare-area-start fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Products Compare</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Products Compare</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="compare-main-wrapper-body">
+                    <div class="single-compare-elements name">Preview</div>
+                    <div class="single-compare-elements">
+                        <div class="thumbnail-preview">
+                            <img src="assets/image/01.jpg" alt="grocery">
+                        </div>
+                    </div>
+                    <div class="single-compare-elements">
+                        <div class="thumbnail-preview">
+                            <img src="assets/image/02.jpg" alt="grocery">
+                        </div>
+                    </div>
+                    <div class="single-compare-elements">
+                        <div class="thumbnail-preview">
+                            <img src="assets/image/03.jpg" alt="grocery">
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <div class="compare-main-wrapper-body">
-                        <div class="single-compare-elements name">Preview</div>
-                        <div class="single-compare-elements">
-                            <div class="thumbnail-preview">
-                                <img src="assets/image/grocery/01.jpg" alt="grocery">
-                            </div>
-                        </div>
-                        <div class="single-compare-elements">
-                            <div class="thumbnail-preview">
-                                <img src="assets/image/grocery/02.jpg" alt="grocery">
-                            </div>
-                        </div>
-                        <div class="single-compare-elements">
-                            <div class="thumbnail-preview">
-                                <img src="assets/image/grocery/03.jpg" alt="grocery">
-                            </div>
+                <div class="compare-main-wrapper-body productname spacifiq">
+                    <div class="single-compare-elements name">Name</div>
+                    <div class="single-compare-elements">
+                        <p>J.Crew Mercantile Women's Short</p>
+                    </div>
+                    <div class="single-compare-elements">
+                        <p>Amazon Essentials Women's Tanks</p>
+                    </div>
+                    <div class="single-compare-elements">
+                        <p>Amazon Brand - Daily Ritual Wom</p>
+                    </div>
+                </div>
+                <div class="compare-main-wrapper-body productname">
+                    <div class="single-compare-elements name">Price</div>
+                    <div class="single-compare-elements price">
+                        <p>$25.00</p>
+                    </div>
+                    <div class="single-compare-elements price">
+                        <p>$39.25</p>
+                    </div>
+                    <div class="single-compare-elements price">
+                        <p>$12.00</p>
+                    </div>
+                </div>
+                <div class="compare-main-wrapper-body productname">
+                    <div class="single-compare-elements name">Description</div>
+                    <div class="single-compare-elements discription">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                    </div>
+                    <div class="single-compare-elements discription">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                    </div>
+                    <div class="single-compare-elements discription">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                    </div>
+                </div>
+                <div class="compare-main-wrapper-body productname">
+                    <div class="single-compare-elements name">Rating</div>
+                    <div class="single-compare-elements">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(25)</span>
                         </div>
                     </div>
-                    <div class="compare-main-wrapper-body productname spacifiq">
-                        <div class="single-compare-elements name">Name</div>
-                        <div class="single-compare-elements">
-                            <p>J.Crew Mercantile Women's Short</p>
-                        </div>
-                        <div class="single-compare-elements">
-                            <p>Amazon Essentials Women's Tanks</p>
-                        </div>
-                        <div class="single-compare-elements">
-                            <p>Amazon Brand - Daily Ritual Wom</p>
+                    <div class="single-compare-elements">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(19)</span>
                         </div>
                     </div>
-                    <div class="compare-main-wrapper-body productname">
-                        <div class="single-compare-elements name">Price</div>
-                        <div class="single-compare-elements price">
-                            <p>$25.00</p>
-                        </div>
-                        <div class="single-compare-elements price">
-                            <p>$39.25</p>
-                        </div>
-                        <div class="single-compare-elements price">
-                            <p>$12.00</p>
+                    <div class="single-compare-elements">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(120)</span>
                         </div>
                     </div>
-                    <div class="compare-main-wrapper-body productname">
-                        <div class="single-compare-elements name">Description</div>
-                        <div class="single-compare-elements discription">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                        </div>
-                        <div class="single-compare-elements discription">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                        </div>
-                        <div class="single-compare-elements discription">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                </div>
+                <div class="compare-main-wrapper-body productname">
+                    <div class="single-compare-elements name">Weight</div>
+                    <div class="single-compare-elements">
+                        <div class="rating">
+                            <p>320 gram</p>
                         </div>
                     </div>
-                    <div class="compare-main-wrapper-body productname">
-                        <div class="single-compare-elements name">Rating</div>
-                        <div class="single-compare-elements">
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <span>(25)</span>
-                            </div>
-                        </div>
-                        <div class="single-compare-elements">
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <span>(19)</span>
-                            </div>
-                        </div>
-                        <div class="single-compare-elements">
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <span>(120)</span>
-                            </div>
+                    <div class="single-compare-elements">
+                        <p>370 gram</p>
+                    </div>
+                    <div class="single-compare-elements">
+                        <p>380 gram</p>
+                    </div>
+                </div>
+                <div class="compare-main-wrapper-body productname">
+                    <div class="single-compare-elements name">Stock status</div>
+                    <div class="single-compare-elements">
+                        <div class="instocks">
+                            <span>In Stock</span>
                         </div>
                     </div>
-                    <div class="compare-main-wrapper-body productname">
-                        <div class="single-compare-elements name">Weight</div>
-                        <div class="single-compare-elements">
-                            <div class="rating">
-                                <p>320 gram</p>
-                            </div>
-                        </div>
-                        <div class="single-compare-elements">
-                            <p>370 gram</p>
-                        </div>
-                        <div class="single-compare-elements">
-                            <p>380 gram</p>
+                    <div class="single-compare-elements">
+                        <div class="outstocks">
+                            <span class="out-stock">Out Of Stock</span>
                         </div>
                     </div>
-                    <div class="compare-main-wrapper-body productname">
-                        <div class="single-compare-elements name">Stock status</div>
-                        <div class="single-compare-elements">
-                            <div class="instocks">
-                                <span>In Stock</span>
-                            </div>
-                        </div>
-                        <div class="single-compare-elements">
-                            <div class="outstocks">
-                                <span class="out-stock">Out Of Stock</span>
-                            </div>
-                        </div>
-                        <div class="single-compare-elements">
-                            <div class="instocks">
-                                <span>In Stock</span>
-                            </div>
+                    <div class="single-compare-elements">
+                        <div class="instocks">
+                            <span>In Stock</span>
                         </div>
                     </div>
-                    <div class="compare-main-wrapper-body productname">
-                        <div class="single-compare-elements name">Buy Now</div>
-                        <div class="single-compare-elements">
-                            <div class="cart-counter-action">
-                                <a href="#" class="rts-btn btn-primary radious-sm with-icon">
-                                    <div class="btn-text">
-                                        Add To Cart
-                                    </div>
-                                    <div class="arrow-icon">
-                                        <i class="fa-regular fa-cart-shopping"></i>
-                                    </div>
-                                    <div class="arrow-icon">
-                                        <i class="fa-regular fa-cart-shopping"></i>
-                                    </div>
-                                </a>
-                            </div>
+                </div>
+                <div class="compare-main-wrapper-body productname">
+                    <div class="single-compare-elements name">Buy Now</div>
+                    <div class="single-compare-elements">
+                        <div class="cart-counter-action">
+                            <a href="#" class="rts-btn btn-primary radious-sm with-icon">
+                                <div class="btn-text">
+                                    Add To Cart
+                                </div>
+                                <div class="arrow-icon">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                                <div class="arrow-icon">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </a>
                         </div>
-                        <div class="single-compare-elements">
-                            <div class="cart-counter-action">
-                                <a href="#" class="rts-btn btn-primary radious-sm with-icon">
-                                    <div class="btn-text">
-                                        Add To Cart
-                                    </div>
-                                    <div class="arrow-icon">
-                                        <i class="fa-regular fa-cart-shopping"></i>
-                                    </div>
-                                    <div class="arrow-icon">
-                                        <i class="fa-regular fa-cart-shopping"></i>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="single-compare-elements">
+                        <div class="cart-counter-action">
+                            <a href="#" class="rts-btn btn-primary radious-sm with-icon">
+                                <div class="btn-text">
+                                    Add To Cart
+                                </div>
+                                <div class="arrow-icon">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                                <div class="arrow-icon">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </a>
                         </div>
-                        <div class="single-compare-elements">
-                            <div class="cart-counter-action">
-                                <a href="#" class="rts-btn btn-primary radious-sm with-icon">
-                                    <div class="btn-text">
-                                        Add To Cart
-                                    </div>
-                                    <div class="arrow-icon">
-                                        <i class="fa-regular fa-cart-shopping"></i>
-                                    </div>
-                                    <div class="arrow-icon">
-                                        <i class="fa-regular fa-cart-shopping"></i>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="single-compare-elements">
+                        <div class="cart-counter-action">
+                            <a href="#" class="rts-btn btn-primary radious-sm with-icon">
+                                <div class="btn-text">
+                                    Add To Cart
+                                </div>
+                                <div class="arrow-icon">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                                <div class="arrow-icon">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </div>
-
-
-
+       
     <!--================= Preloader Section Start Here =================-->
     <!-- <div id="weiboo-load">
-    <div class="preloader-new">
-        <svg class="cart_preloader" role="img" aria-label="Shopping cart_preloader line animation"
-            viewBox="0 0 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg">
-            <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
-                <g class="cart__track" stroke="hsla(0,10%,10%,0.1)">
-                    <polyline points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80" />
-                    <circle cx="43" cy="111" r="13" />
-                    <circle cx="102" cy="111" r="13" />
-                </g>
-                <g class="cart__lines" stroke="currentColor">
-                    <polyline class="cart__top" points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80"
-                        stroke-dasharray="338 338" stroke-dashoffset="-338" />
-                    <g class="cart__wheel1" transform="rotate(-90,43,111)">
-                        <circle class="cart__wheel-stroke" cx="43" cy="111" r="13" stroke-dasharray="81.68 81.68"
-                            stroke-dashoffset="81.68" />
+        <div class="preloader-new">
+            <svg class="cart_preloader" role="img" aria-label="Shopping cart_preloader line animation"
+                viewBox="0 0 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+                    <g class="cart__track" stroke="hsla(0,10%,10%,0.1)">
+                        <polyline points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80" />
+                        <circle cx="43" cy="111" r="13" />
+                        <circle cx="102" cy="111" r="13" />
                     </g>
-                    <g class="cart__wheel2" transform="rotate(90,102,111)">
-                        <circle class="cart__wheel-stroke" cx="102" cy="111" r="13" stroke-dasharray="81.68 81.68"
-                            stroke-dashoffset="81.68" />
+                    <g class="cart__lines" stroke="currentColor">
+                        <polyline class="cart__top" points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80"
+                            stroke-dasharray="338 338" stroke-dashoffset="-338" />
+                        <g class="cart__wheel1" transform="rotate(-90,43,111)">
+                            <circle class="cart__wheel-stroke" cx="43" cy="111" r="13" stroke-dasharray="81.68 81.68"
+                                stroke-dashoffset="81.68" />
+                        </g>
+                        <g class="cart__wheel2" transform="rotate(90,102,111)">
+                            <circle class="cart__wheel-stroke" cx="102" cy="111" r="13" stroke-dasharray="81.68 81.68"
+                                stroke-dashoffset="81.68" />
+                        </g>
                     </g>
                 </g>
-            </g>
-        </svg>
-    </div>
-</div> -->
+            </svg>
+        </div>
+    </div> -->
     <!--================= Preloader End Here =================-->
-
-
-
-
-
+    
     <div class="search-input-area">
         <div class="container">
             <div class="search-input-inner">
@@ -1627,21 +1401,64 @@
     <!-- progress area start -->
     <div class="progress-wrap">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
         </svg>
     </div>
     <!-- progress area end -->
-
-
+     
+    <!-- js  -->
     <!-- plugins js -->
-    <script defer="" src="assets/js/plugins.js"></script>
-
+    <script defer src="assets/js/plugins.js"></script>
     <!-- custom js -->
-    <script defer="" src="assets/js/main.js"></script>
-    <!-- header style two End -->
+    <script defer src="assets/js/main.js"></script>
+    <!-- bootstrap js  -->
+    <script src="assets/libs/bootstrap/bootstrap.min.js"></script>
+    <!-- swiper js -->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
 
-
-
-
+    <!-- swiper js  -->
+    <script>
+        var swiper = new Swiper(".categoryslider", {
+            spaceBetween:0,
+            slidesPerView:8,
+            loop: true,
+            speed: 1000,
+            breakpoints:{
+                0:{
+                    slidesPerView:1,
+                    spaceBetween: 0,
+                },
+                340:{
+                    slidesPerView:2,
+                    spaceBetween:0,
+                },
+                480:{
+                    slidesPerView:3,
+                    spaceBetween:0,
+                },
+                640:{
+                    slidesPerView:4,
+                    spaceBetween:0,
+                },
+                840:{
+                    slidesPerView:4,
+                    spaceBetween:0,
+                },
+                1140:{
+                    slidesPerView:8,
+                    spaceBetween:0,
+                },
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+     
 </body>
 </html> 
