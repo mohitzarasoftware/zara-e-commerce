@@ -18508,6 +18508,11 @@ li.with-megamenu:hover .rts-megamenu {
   transition: 0.3s;
   font-size: 16px;
   margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .single-shopping-card-one .body-content a:hover .title {
@@ -18737,6 +18742,10 @@ li.with-megamenu:hover .rts-megamenu {
   align-items: center;
   justify-content: center;
   transition: 0.3s;
+}
+.title-area-between .next-prev-swiper-wrapper .swiper-button-prev::after,
+.title-area-between .next-prev-swiper-wrapper .swiper-button-next::after {
+  display: none;
 }
 
 @media only screen and (max-width: 479px) {
